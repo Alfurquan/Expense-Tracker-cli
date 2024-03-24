@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "expense-tracker"
+version = "0.1.0"
+description = ""
+authors = ["Alfurquan Zahedi <alzahedi@microsoft.com>"]
+readme = "README.md"
+packages = [{include = "expense_tracker"}]
+
+[tool.poetry.scripts]
+expense = "expense_tracker.cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tinydb = "4.5.1"
+typer = "0.3.2"
+rich = "10.7.0" 
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
