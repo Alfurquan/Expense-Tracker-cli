@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "expense-tracker"
+name = "expense-tracker-alzahedi"
 version = "0.1.0"
 description = ""
 authors = ["Alfurquan Zahedi <alzahedi@microsoft.com>"]
